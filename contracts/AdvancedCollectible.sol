@@ -48,4 +48,9 @@ contract AdvancedCollectible is ERC721, VRFConsumerBase {
         tokenCounter = tokenCounter + 1;
     }
 
+    function setTokenURI(uint256 tokenId, string memory _tokenURI) public {
+        require(_isApprovedOrOwner(_msgSender(), tokenId), "ERC721: transfer caller is not owner nor approved");
+        _setTokenURI(tokenId, _tokenURI);
+    }
+
 }

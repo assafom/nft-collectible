@@ -27,14 +27,14 @@
     "absolutePath": "/home/assaf/.brownie/packages/OpenZeppelin/openzeppelin-contracts@3.4.0/contracts/introspection/IERC165.sol",
     "exportedSymbols": {
       "IERC165": [
-        3591
+        3613
       ]
     },
-    "id": 3592,
+    "id": 3614,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 3581,
+        "id": 3603,
         "literals": [
           "solidity",
           ">=",
@@ -53,15 +53,15 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 3582,
+          "id": 3604,
           "nodeType": "StructuredDocumentation",
           "src": "66:279:1",
           "text": "@dev Interface of the ERC165 standard, as defined in the\nhttps://eips.ethereum.org/EIPS/eip-165[EIP].\n * Implementers can declare support of contract interfaces, which can then be\nqueried by others ({ERC165Checker}).\n * For an implementation, see {ERC165}."
         },
         "fullyImplemented": false,
-        "id": 3591,
+        "id": 3613,
         "linearizedBaseContracts": [
-          3591
+          3613
         ],
         "name": "IERC165",
         "nodeType": "ContractDefinition",
@@ -69,13 +69,13 @@
           {
             "body": null,
             "documentation": {
-              "id": 3583,
+              "id": 3605,
               "nodeType": "StructuredDocumentation",
               "src": "370:340:1",
               "text": "@dev Returns true if this contract implements the interface defined by\n`interfaceId`. See the corresponding\nhttps://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[EIP section]\nto learn more about how these ids are created.\n     * This function call must use less than 30 000 gas."
             },
             "functionSelector": "01ffc9a7",
-            "id": 3590,
+            "id": 3612,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -83,17 +83,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 3586,
+              "id": 3608,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3585,
+                  "id": 3607,
                   "mutability": "mutable",
                   "name": "interfaceId",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 3590,
+                  "scope": 3612,
                   "src": "742:18:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -102,7 +102,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 3584,
+                    "id": 3606,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "742:6:1",
@@ -118,17 +118,17 @@
               "src": "741:20:1"
             },
             "returnParameters": {
-              "id": 3589,
+              "id": 3611,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3588,
+                  "id": 3610,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 3590,
+                  "scope": 3612,
                   "src": "785:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -137,7 +137,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 3587,
+                    "id": 3609,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "785:4:1",
@@ -152,14 +152,14 @@
               ],
               "src": "784:6:1"
             },
-            "scope": 3591,
+            "scope": 3613,
             "src": "715:76:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 3592,
+        "scope": 3614,
         "src": "346:447:1"
       }
     ],
